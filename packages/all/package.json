@@ -1,0 +1,38 @@
+{
+  "name": "@webfansplz/eslint-config",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "author": "webfansplz",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "@webfansplz/eslint-config-vue": "^0.1.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsonc": "^1.7.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-unicorn": "^37.0.1",
+    "eslint-plugin-vue": "7.19.1",
+    "eslint-plugin-yml": "^0.10.1",
+    "jsonc-eslint-parser": "^1.4.1",
+    "yaml-eslint-parser": "^0.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "4dcacc85070a640984aeb18b9f6ceeb0e1d5a676"
+}

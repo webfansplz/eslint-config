@@ -1,0 +1,27 @@
+{
+  "name": "@webfansplz/eslint-config-ts",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "author": "webfansplz",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "@webfansplz/eslint-config-basic": "^0.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0"
+  },
+  "gitHead": "4dcacc85070a640984aeb18b9f6ceeb0e1d5a676"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@webfansplz/eslint-config-vue",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "webfansplz",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@webfansplz/eslint-config-ts": "^0.1.0",
+    "eslint-plugin-vue": "7.19.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0"
+  },
+  "gitHead": "4dcacc85070a640984aeb18b9f6ceeb0e1d5a676"
+}
