@@ -1,26 +1,26 @@
 {
-  "name": "@webfansplz/eslint-config-vue",
-  "version": "0.1.0",
-  "description": "",
-  "keywords": [],
-  "license": "MIT",
   "author": "webfansplz",
+  "dependencies": {
+    "@webfansplz/eslint-config-ts": "^1.0.0",
+    "eslint-plugin-vue": "7.19.1"
+  },
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.2.0"
+  },
   "files": [
     "index.js"
   ],
+  "gitHead": "a8b4a13d4add08fedd0afadc2449c97b91522c18",
+  "keywords": [],
+  "license": "MIT",
   "main": "index.js",
+  "name": "@webfansplz/eslint-config-vue",
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "@webfansplz/eslint-config-ts": "^0.1.0",
-    "eslint-plugin-vue": "7.19.1"
-  },
-  "devDependencies": {
-    "eslint": "^8.2.0"
-  },
-  "gitHead": "a8b4a13d4add08fedd0afadc2449c97b91522c18"
+  "version": "1.0.0"
 }
